@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Luiz Henrique Silva Guizi</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header class="container">
+        <h1>Luiz Henrique Silva Guizi</h1>
+        <p class="subtitle">Desenvolvedor de Software | Java • PHP • Python • JS</p>
+        
+        <div class="header-links">
+            <a href="https://github.com/lguizi" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/guiziluiz" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:contatolhsg@gmail.com" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="sobre">
+            <h2><i class="fa-solid fa-terminal"></i> Sobre Mim</h2>
+            <p>
+                Atualmente graduando em tecnologia, sou um entusiasta de programação com foco em backend e eficiência de processos. 
+                Tenho facilidade em <strong>aprender novas linguagens</strong> e aplicar lógica de programação para resolver problemas reais. 
+                Meu principal passatempo e área de estudo contínuo envolve a criação de <strong>automações web</strong>, transformando tarefas manuais em fluxos inteligentes e rápidos.
+            </p>
+        </section>
+
+        <section id="formacao">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
+            <ul>
+                <li>
+                    <strong>Análise e Desenvolvimento de Software Multiplataforma</strong><br>
+                    FATEC Itaquera - Prof. Miguel Reale<br>
+                    <span class="status">Em andamento</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="tecnologias">
+            <h2><i class="fa-solid fa-code"></i> Stack Tecnológica</h2>
+            <div class="tech-grid">
+                <div class="tech-item"><i class="fa-brands fa-java"></i> Java</div>
+                <div class="tech-item"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="tech-item"><i class="fa-brands fa-php"></i> PHP</div>
+                <div class="tech-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="tech-item"><i class="fa-solid fa-robot"></i> Automação Web</div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2><i class="fa-solid fa-folder-open"></i> Projetos em Destaque</h2>
+            <div class="projetos-grid">
+                <article class="projeto-card">
+                    <h3>Droper Bot</h3>
+                    <p>Bot de automação desenvolvido para otimizar fluxos de trabalho e tarefas repetitivas na web.</p>
+                    <div class="projeto-techs">
+                        <span>Python</span>
+                        <span>Automação</span>
+                    </div>
+                    <a href="https://github.com/SeuUsuario/DroperBot" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Ver Código</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2><i class="fa-solid fa-briefcase"></i> Experiência Profissional</h2>
+            <article>
+                <h3>Estagiário na Valvula Marketing</h3>
+                <p class="periodo">Experiência anterior</p>
+                <p>
+                    Atuação no suporte a processos digitais, auxiliando na organização de dados e compreensão do fluxo de trabalho em agências de marketing. 
+                    Desenvolvi competências fundamentais de trabalho em equipe e comunicação corporativa.
+                </p>
+            </article>
+        </section>
+
+        <section id="softskills">
+            <h2><i class="fa-solid fa-brain"></i> Diferenciais (Soft-Skills)</h2>
+            <ul>
+                <li><strong>Persistência Técnica:</strong> Foco total na resolução de bugs e desafios lógicos.</li>
+                <li><strong>Curiosidade Investigativa:</strong> Constante busca por novas bibliotecas e métodos de automação.</li>
+                <li><strong>Adaptabilidade:</strong> Transição fluida entre diferentes linguagens de programação.</li>
+                <li><strong>Proatividade:</strong> Identificação de gargalos que podem ser automatizados.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <h2>Vamos conversar?</h2>
+            <p>Estou sempre aberto a novas oportunidades e desafios na área de desenvolvimento.</p>
+            <a href="mailto:contatolhsg@gmail.com" class="btn btn-large"><i class="fa-solid fa-paper-plane"></i> contatolhsg@gmail.com</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": { "value": 70, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#00ff7f" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5 },
+                "size": { "value": 3, "random": true },
+                "line_linked": { "enable": true, "distance": 150, "color": "#00ff7f", "opacity": 0.4, "width": 1 },
+                "move": { "enable": true, "speed": 4, "direction": "none", "out_mode": "out" }
+            },
+            "interactivity": {
+                "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" } }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
